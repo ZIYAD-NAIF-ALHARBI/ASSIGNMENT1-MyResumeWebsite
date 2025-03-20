@@ -1,0 +1,86 @@
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+.hero {
+    background: #e600ff;
+    color: rgba(15, 247, 239, 0.788);
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.section {
+    padding: 80px 0;
+}
+
+
+#education ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#education li {
+    background: #5f15067e;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+#contact a {
+    text-decoration: none;
+}
+
+
+.footer {
+    background: #0217ffcf;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.btn-primary {
+    background-color: #2cc00b;
+    border-color: #6e07b4b7;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(3, 221, 217, 0.2);
+}
+
+
+.navbar.scrolled {
+    background: rgba(108, 175, 7, 0.9) !important;
+    transition: background 0.3s ease-in-out;
+}
+
+/* تحريك النصوص عند التمرير */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animated-text {
+    animation: fadeInUp 1s ease-in-out;
+}
